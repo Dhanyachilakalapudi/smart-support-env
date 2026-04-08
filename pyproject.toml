@@ -1,0 +1,20 @@
+[project]
+name = "smart_support_env"
+version = "1.0.0"
+description = "SupportOps OpenEnv benchmark for real-world customer support workflow evaluation"
+authors = [{ name = "Dhanya Chilakalapudi" }]
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core>=0.2.0",
+    "pydantic>=2.7.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "openai>=1.40.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+server = "server.app:main"

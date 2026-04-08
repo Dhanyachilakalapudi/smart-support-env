@@ -1,0 +1,12 @@
+spec_version: 1
+name: support_env
+description: Real-world customer support operations benchmark for OpenEnv.
+type: space
+runtime: fastapi
+app: server.app:app
+entrypoint: support_env.env:SupportOpsEnvironment
+tasks:
+  - easy
+  - medium
+  - hard
+port: 8000
