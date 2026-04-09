@@ -1,13 +1,13 @@
 ---
 title: SupportOps OpenEnv
-emoji: "ticket"
+emoji: "🎫"
 colorFrom: blue
 colorTo: green
 sdk: docker
 tags:
-- openenv
-- reinforcement-learning
-- customer-support
+  - openenv
+  - reinforcement-learning
+  - customer-support
 ---
 
 # SupportOps OpenEnv (Real-World Customer Support Workflow)
